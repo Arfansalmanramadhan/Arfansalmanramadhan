@@ -13,12 +13,12 @@ function removeTodoList(index) {
 
 function tambahTodo(index, todo) {
   const table = document.getElementById("badanTodolist");
-  const tr = document.createElement("tr");
+  const tr = document.createElement("ul");
   table.append(tr);
-  const tdTodo = document.createElement("td");
+  const tdTodo = document.createElement("li");
   tdTodo.textContent = todo;
 
-  const td = document.createElement("td");
+  const td = document.createElement("li");
   const buttonMelakukan = document.createElement("input");
   buttonMelakukan.type = "button";
   buttonMelakukan.value = "Hilang";
