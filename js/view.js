@@ -24,23 +24,4 @@ export function tambahTodo(index, todo) {
   // bandan.appendChild(tr);
 }
 
-const from = document.forms["from1"];
-from.addEventListener("submit", (e) => {
-  e.preventDefault();
-
-  //   const todo = document.forms["from1"]["todo"];
-  const todo = document.getElementById("todo").value;
-  todolist.push(todo);
-  from.reset();
-  console.log(todolist);
-  displayTodolist();
-});
-
-const cariinput = document.getElementById("cari");
-cariinput.addEventListener("keyup", () => {
-  displayTodolist();
-});
-cariinput.addEventListener("keyupdown", () => {
-  displayTodolist();
-});
 displayTodolist();

@@ -26,6 +26,6 @@ const cariinput = document.getElementById("cari");
 cariinput.addEventListener("keyup", () => {
   displayTodolist();
 });
-cariinput.addEventListener("keyupdown", () => {
+cariinput.addEventListener("keyudown", () => {
   displayTodolist();
 });
