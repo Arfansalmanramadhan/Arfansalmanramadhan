@@ -1,17 +1,8 @@
+import { removeTodoList } from "./model.js";
+import { displayTodolist } from "./controller.js";
 const todolist = ["JavaScript", "Vue.js", "React.js"];
 
-function clearTodolist() {
-  const bandan = document.getElementById("badanTodolist");
-  while (bandan.firstChild) {
-    bandan.removeChild(bandan.firstChild);
-  }
-}
-function removeTodoList(index) {
-  todolist.splice(index, 1);
-  displayTodolist();
-}
-
-function tambahTodo(index, todo) {
+export function tambahTodo(index, todo) {
   const table = document.getElementById("badanTodolist");
   const tr = document.createElement("ul");
   table.append(tr);
@@ -31,19 +22,6 @@ function tambahTodo(index, todo) {
 
   // const bandan = document.getElementById("badanTodolist");
   // bandan.appendChild(tr);
-}
-
-function displayTodolist() {
-  clearTodolist();
-
-  for (let i = 0; i < todolist.length; i++) {
-    const todo = todolist[i];
-    const carii = document.getElementById("cari").value.toLowerCase();
-
-    if (todo.toLowerCase().includes(carii)) {
-      tambahTodo(i, todo);
-    }
-  }
 }
 
 const from = document.forms["from1"];
