@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  margin: auto;
+  /* text-align: center; */
+  padding: 0.375rem 0.75rem;
+  /* background-color: red; */
+  box-sizing: border-box;
+  background-color: yellow;
+}
+h1 {
+  text-align: center;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+.fromm {
+  margin-bottom: 0.5rem;
+}
+.frommm {
+  display: inline-block;
+  max-width: 100%;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.35rem;
+  appearance: none;
+  border: 1px solid black;
+  color: rgb(27, 27, 27);
+  font-family: sans-serif;
+  font-size: 1rem;
+}
