@@ -1,3 +1,5 @@
 # Todolist-dengan-vanilla-js
 
-Belajar sekaligus membuat todolist dengan MVC JavaScript
+Belajar JavaScript dan MVC sekaligus studi kasus membuat todolist
+
+Sebelum kita buat todo list alangkah lebih baiknya, kita pahami terlebih dahulu script.
