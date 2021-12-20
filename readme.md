@@ -11,5 +11,7 @@ Array adalah tempat atau wajah yang menyimpan tipe data seperti, number, string 
 Contoh membuat array
 
 #+BEGIN_SRC shell
-`var a = 10; let b = halo dunia; const c = true atua false`
+var a = 10;
+let b = halo dunia;
+const c = true atua false
 #+END_SRC
