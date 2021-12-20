@@ -6,12 +6,9 @@ Sebelum kita membuat todo list, alangkah lebih baiknya, kita pahami terlebih dah
 
 - Syntaxs JavaScript
 
-\*\* Array
+\*\*\* Array
+
 Array adalah tempat atau wajah yang menyimpan tipe data seperti, number, string dan boolean.
 Contoh membuat array
 
-#+BEGIN_SRC shell
-var a = 10;
-let b = halo dunia;
-const c = true atua false
-#+END_SRC
+`var a = 10; \n let b = halo dunia; \n const c = true atua false`
