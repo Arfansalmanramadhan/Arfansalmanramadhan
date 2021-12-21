@@ -1,4 +1,4 @@
-# Todolist-dengan-vanilla-js
+#+TITLE: Todolist-dengan-vanilla-js
 
 Belajar JavaScript dan MVC sekaligus studi kasus membuat todo list
 
@@ -8,10 +8,32 @@ Sebelum kita membuat todo list, alangkah lebih baiknya, kita pahami terlebih dah
 
 *** Array
 
-Array adalah tempat atau wajah yang menyimpan tipe data seperti, number, string dan boolean.
+Array adalah tempat atau wajah untuk menyimpan tipe data seperti, number, string dan boolean.
 Contoh membuat array
 #+BEGIN_SRC shell
 var a = 10;
-let b = halo dunia;
+let b = "halo dunia";
 const c = true atua false
+#+END_SRC
+
+*** If
+If untuk membuat penyataan jika kondisi benar atau jika kondisi salah 
+contoh membuat if
+#+BEGIN_SRC shell
+if(6.5 > 7){
+    concole.log("lulus")
+} else {
+    console.log("tidak lulus")
+}
+#+END_SRC
+
+*** While
+While untuk membuat pengulangan kondisi yang kita inginkan.
+Contoh membuat while
+#+BEGIN_SRC
+let a = 0;
+while(a <=10){
+    console.log("nilai ke " + a + "a");
+    a++
+}
 #+END_SRC
