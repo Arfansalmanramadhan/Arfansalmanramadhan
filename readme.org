@@ -30,10 +30,28 @@ if(6.5 > 7){
 *** While
 While untuk membuat pengulangan kondisi yang kita inginkan.
 Contoh membuat while
-#+BEGIN_SRC
+#+BEGIN_SRC shell
 let a = 0;
 while(a <=10){
     console.log("nilai ke " + a + "a");
     a++
 }
 #+END_SRC
+
+***Function
+Function merupakan satu blok program atua kode yang akan berjalan saat kita panggil.
+Contoh Membuat function
+#+BEGIN_SRC shell
+fnction tambah(a,b){
+    return a + b;
+}
+tambah(12,11);
+#+END_SRC
+
+*** MVC
+MVC (Model-View-Controller) merupakan perkelompokan program atau kode yang masing-masing memiliki fungsingya sendiri.
+Tiga fungsi sebagai berikut.
+1. Model: Mengola data dan logika bisnis.
+2. View: Menangani tata letak dan tampilan
+3. Controller: Merutekan perintah ke model dan view
+Sumber dari [[https://developer.mozilla.org/en-US/docs/Glossary/MVC][https://developer.mozilla.org/en-US/docs/Glossary/MVC]]
