@@ -9,6 +9,7 @@ Sebelum kita membuat todo list, alangkah lebih baiknya, kita pahami terlebih dah
 *** Array
 
 Array adalah tempat atau wajah untuk menyimpan tipe data seperti, number, string dan boolean.
+
 Contoh membuat array
 #+BEGIN_SRC shell
 var a = 10;
@@ -17,8 +18,9 @@ const c = true atua false
 #+END_SRC
 
 *** If
-If untuk membuat penyataan jika kondisi benar atau jika kondisi salah 
-contoh membuat if
+If untuk membuat penyataan jika kondisi benar atau jika kondisi salah.
+
+Contoh membuat if
 #+BEGIN_SRC shell
 if(6.5 > 7){
     concole.log("lulus")
@@ -29,6 +31,7 @@ if(6.5 > 7){
 
 *** While
 While untuk membuat pengulangan kondisi yang kita inginkan.
+
 Contoh membuat while
 #+BEGIN_SRC shell
 let a = 0;
@@ -50,6 +53,7 @@ tambah(12,11);
 
 *** MVC
 MVC (Model-View-Controller) merupakan perkelompokan program atau kode yang masing-masing memiliki fungsingya sendiri.
+
 Tiga fungsi sebagai berikut.
 1. Model: Mengola data dan logika bisnis.
 2. View: Menangani tata letak dan tampilan
