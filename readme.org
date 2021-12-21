@@ -38,7 +38,7 @@ while(a <=10){
 }
 #+END_SRC
 
-***Function
+*** Function
 Function merupakan satu blok program atua kode yang akan berjalan saat kita panggil.
 Contoh Membuat function
 #+BEGIN_SRC shell
