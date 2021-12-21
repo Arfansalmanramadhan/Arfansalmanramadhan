@@ -10,7 +10,8 @@ Sebelum kita membuat todo list, alangkah lebih baiknya, kita pahami terlebih dah
 
 Array adalah tempat atau wajah yang menyimpan tipe data seperti, number, string dan boolean.
 Contoh membuat array
-
-`var a = 10;` 
-`let b = halo dunia;`
-` const c = true atua false`
+#+BEGIN_SRC shell
+var a = 10;
+let b = halo dunia;
+const c = true atua false
+#+END_SRC
