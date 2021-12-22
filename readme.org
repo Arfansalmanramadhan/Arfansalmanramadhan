@@ -6,15 +6,23 @@ Sebelum kita membuat todo list, alangkah lebih baiknya, kita pahami terlebih dah
 
 * Syntaxs JavaScript
 
-*** Array
+*** Variable
+Variable adalah tempat untuk menyimpan data, dengan menyimpan data ke variable, kita bisa menggnakan lagi dengan menyebut nama variable nya.
 
+Contoh membuat variable
+#+BEGIN_SRC shell
+var a = 123;
+let b = "halo dunia";
+const c = true
+#+END_SRC
+
+*** Array
 Array adalah tempat atau wajah untuk menyimpan tipe data seperti, number, string dan boolean.
 
 Contoh membuat array
 #+BEGIN_SRC shell
-var a = 10;
-let b = "halo dunia";
-const c = true atua false
+
+const c = [120,"Halo dunia",true atua fals1e];
 #+END_SRC
 
 *** If
@@ -23,9 +31,9 @@ If untuk membuat penyataan jika kondisi benar atau jika kondisi salah.
 Contoh membuat if
 #+BEGIN_SRC shell
 if(6.5 > 7){
-    concole.log("lulus")
+    concole.log("lulus");
 } else {
-    console.log("tidak lulus")
+    console.log("tidak lulus");
 }
 #+END_SRC
 
@@ -58,4 +66,5 @@ Tiga fungsi sebagai berikut.
 1. Model: Mengola data dan logika bisnis.
 2. View: Menangani tata letak dan tampilan
 3. Controller: Merutekan perintah ke model dan view
-Sumber dari [[https://developer.mozilla.org/en-US/docs/Glossary/MVC][https://developer.mozilla.org/en-US/docs/Glossary/MVC]]
+Lebih lanjut bisa kunjungi website  di bawah ini 
+[[https://developer.mozilla.org/en-US/docs/Glossary/MVC][https://developer.mozilla.org/en-US/docs/Glossary/MVC]]
