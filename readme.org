@@ -66,5 +66,20 @@ Tiga fungsi sebagai berikut.
 1. Model: Mengola data dan logika bisnis.
 2. View: Menangani tata letak dan tampilan
 3. Controller: Merutekan perintah ke model dan view
-Lebih lanjut bisa kunjungi website  di bawah ini 
+Lebih lanjut tentang MVC bisa kunjungi website  di bawah ini 
+
 [[https://developer.mozilla.org/en-US/docs/Glossary/MVC][https://developer.mozilla.org/en-US/docs/Glossary/MVC]]
+
+*** JavaScript Module
+Module merupakan perkelompokan file serta baris kode untuk menjalankan tugas tertentu saat di panggi ke program yang lebih besar.
+
+Lebih lanjut tentang Module bisa kunjungi website  di bawah ini.
+
+ [[https://www.freecodecamp.org/news/javascript-modules-explained-with-examples/][https://www.freecodecamp.org/news/javascript-modules-explained-with-examples/]]
+
+*** DOM JavaScript
+DOM adalah menampilkan object dari srtuktur halaman web, serta bagian dari web API
+
+Lebih lanjut tentang DOM bisa kunjungi website  di bawah ini.
+
+[[https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model][https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model]]

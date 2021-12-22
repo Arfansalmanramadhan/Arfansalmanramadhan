@@ -1,10 +1,9 @@
 import { removeTodoList } from "./model.js";
 import { displayTodolist } from "./controller.js";
-const todolist = ["JavaScript", "Vue.js", "React.js"];
 
 export function tambahTodo(index, todo) {
-  const table = document.getElementById("badanTodolist");
-  const tr = document.createElement("ul");
+  const table = document.getElementById("badanTodolist"); // memaggi elemen id
+  const tr = document.createElement("ul"); // membuat elemen
   table.append(tr);
   const tdTodo = document.createElement("li");
   tdTodo.textContent = todo;
@@ -16,12 +15,11 @@ export function tambahTodo(index, todo) {
   buttonMelakukan.onclick = function () {
     removeTodoList(index);
   };
-  td.append(buttonMelakukan);
+  td.append(buttonMelakukan); // menambahkan elemen
 
   tr.append(td, tdTodo);
 
-  // const bandan = document.getElementById("badanTodolist");
-  // bandan.appendChild(tr);
+
 }
 
 displayTodolist();

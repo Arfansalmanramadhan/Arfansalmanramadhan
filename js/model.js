@@ -3,7 +3,7 @@ export const todolist = ["JavaScript", "Vue.js", "React.js"];
 export function clearTodolist() {
   const bandan = document.getElementById("badanTodolist");
   while (bandan.firstChild) {
-    bandan.removeChild(bandan.firstChild);
+    bandan.removeChild(bandan.firstChild); // menghapus elemen
   }
 }
 export function removeTodoList(index) {
