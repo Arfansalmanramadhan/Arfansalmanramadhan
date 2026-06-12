@@ -32,9 +32,9 @@ Saya  seorang Web Developer.<br>Saya mengembangkan CarbonStock, sebuah aplikasi 
 
 ## 📊 GitHub Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=Arfansalmanramadhan&show_icons=true&theme=dracula" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api?username=Arfansalmanramadhan&show_icons=true&theme=dracula" width="47%" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arfansalmanramadhan&layout=compact&theme=dracula" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arfansalmanramadhan&layout=compact&theme=dracula" width="47%" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com?user=Arfansalmanramadhan&theme=dracula" width="100%" />
 
